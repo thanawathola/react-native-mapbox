@@ -4,10 +4,6 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { MAPBOX_API_KEY } from '@env';
-
-console.log(MAPBOX_API_KEY);
-
 
 export default function HomeScreen() {
   return (
